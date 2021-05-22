@@ -86,6 +86,8 @@ iframe {
 .bio {
 	font-size: 45px;
 	line-height: 70px;
+	margin-top: 10px;
+	padding-top: 10px;
 }
 
 .logo {
@@ -157,6 +159,7 @@ iframe {
 	color: white;
 	padding: 10px;
 	margin: 20px;
+	width: 250px;
 }
 
 .button a {
