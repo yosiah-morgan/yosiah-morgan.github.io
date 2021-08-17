@@ -18,6 +18,11 @@ body {
 
 a {
 	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	font-weight: bold;
 }
 
 p {
@@ -73,15 +78,9 @@ iframe {
 }
 
 .style-nav ul li a {
-	text-decoration: none;
-	color: white;
 	text-align: center;
 	display: block;
 	padding: 8px;
-}
-
-.style-nav ul li a:hover {
-	font-weight: bold;
 }
 
 .bio {
@@ -164,6 +163,10 @@ iframe {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	
+	.contact {
+		text-align: center;
+	}
 }
 /* Tablet View */
 @media (min-width: 768px){
@@ -175,13 +178,17 @@ iframe {
 		display: inline-block;
 	}
 	
-	.style-nav ul {
+	.style-nav {
 		text-align: center;
 	}
 	
 	.bio {
 		padding-left: 25px;
 		padding-right: 25px;
+	}
+	
+	.contact {
+		text-align: center;
 	}
 	
 	.row {
