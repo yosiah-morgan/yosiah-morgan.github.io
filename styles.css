@@ -69,6 +69,7 @@ iframe {
 
 .style-nav ul {
 	list-style-type: none;
+	display: inline;
 }
 
 .style-nav ul li a {
