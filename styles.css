@@ -6,7 +6,7 @@ html * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: Arial;
+	font-family: "Helvetica";
 }
 
 body {
@@ -72,15 +72,30 @@ iframe {
 	color: white;
 }
 
+.style-nav {
+	text-align: center;
+}
+
 .style-nav ul {
 	list-style-type: none;
 	display: inline;
 }
 
-.style-nav ul li a {
+.style-nav ul li {
 	text-align: center;
-	display: block;
+	display: inline-block;
 	padding: 8px;
+	font-size: 27px;
+}
+
+.contact {
+	padding-top: 50%;
+}
+
+.contact p {
+	font-size: 27px;
+	padding: 0px;
+	line-height: 50px;
 }
 
 .bio {
@@ -95,6 +110,11 @@ iframe {
 	width: 50px;
 	height: 50px;
 	padding: 10px;
+}
+
+.icon {
+	margin: 10px;
+	width: 5%;
 }
 
 .thumbnail {
@@ -174,14 +194,6 @@ iframe {
 		padding: 50px;
 	}
 	
-	.style-nav ul li {
-		display: inline-block;
-	}
-	
-	.style-nav {
-		text-align: center;
-	}
-	
 	.bio {
 		padding-left: 25px;
 		padding-right: 25px;
@@ -189,6 +201,7 @@ iframe {
 	
 	.contact {
 		text-align: center;
+		padding-top: 25%;
 	}
 	
 	.row {
@@ -227,6 +240,10 @@ iframe {
 	
 	.style-nav ul li a {
 		font-size: 32px;
+	}
+	
+	.contact {
+		padding-top: 12%;
 	}
 	
 	.bio {
