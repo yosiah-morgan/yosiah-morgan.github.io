@@ -16,6 +16,7 @@ body {
 	margin: 0px;
 	background-color: black !important;
 	min-height: 100%;
+	margin: 0 0 50px;
 }
 
 a {
@@ -48,13 +49,13 @@ header {
 
 main {
 	/*min-height: calc(100vh - 300px);*/
+	box-sizing: border-box;
 }
 
 footer {
-	position: absolute;
+	position: fixed;
 	left: 0;
 	bottom: 0;
-	float: right;
 	height: 50px;
 	width: 100%;
 }
@@ -100,7 +101,7 @@ iframe {
 }
 
 .contact p {
-	font-size: 30em;
+	font-size: 2em;
 	padding: 0px;
 	line-height: 50px;
 }
