@@ -44,7 +44,7 @@ h2 {
 }
 
 header {
-	padding: 32px;
+	padding: 0px/*32px*/;
 }
 
 main {
@@ -203,6 +203,12 @@ iframe {
 @media (min-width: 768px){
 	p {
 		padding: 50px;
+		font-size: 21px;
+		line-height: 40px;
+	}
+	
+	main {
+		margin-top:  100px;
 	}
 	
 	.bio {
@@ -232,18 +238,9 @@ iframe {
 	.icon {
 		width: 5%;
 	}
-	
-	p {
-		font-size: 21px;
-		line-height: 40px;
-	}
 }
 
-@media (min-width: 1024px){
-	header {
-		padding-bottom: 100px;
-	}
-	
+@media (min-width: 1024px){	
 	p {
 		display: block;
 		margin-top: 10px;
@@ -252,10 +249,14 @@ iframe {
 		line-height: 50px;
 	}
 	
+	main {
+		margin-top: 0px;
+	}
+	
 	.style-logo {
 		float: left;
 		padding-left: 10px;
-		font-size: 5em;
+		font-size: 200px;
 	}
 	
 	.style-nav {
@@ -264,7 +265,7 @@ iframe {
 	}
 	
 	.style-nav ul li a {
-		font-size: 3em !important;
+		font-size: 100px !important;
 	}
 	
 	.contact {
