@@ -7,16 +7,13 @@ html * {
 	margin: 0;
 	box-sizing: border-box;
 	font-family: "Helvetica";
-	min-height: 100%;
 }
 
 body {
 	height: 100%;
 	padding: 0px;
-	margin: 0px;
 	background-color: black !important;
 	min-height: 100%;
-	/*margin: 0 0 50px;*/
 }
 
 a {
@@ -45,11 +42,12 @@ h2 {
 }
 
 header {
-	padding: 0px/*32px*/;
+	padding: 0px;
+	margin-bottom: 50px;
 }
 
 main {
-	min-height: 75vh;
+	min-height: 94vh;
 	box-sizing: border-box;
 }
 
@@ -58,6 +56,8 @@ footer {
 	bottom: 0;
 	height: 50px;
 	width: 100%;
+	margin: 0px;
+	padding: 0px;
 }
 
 img {
@@ -100,20 +100,15 @@ iframe {
 	font-size: 50px;
 }
 
-.contact {
-	padding-top: 25%;
-	margin-bottom: 0px;
-}
-
 .contact p {
 	font-size: 36px;
-	padding: 0px;
+	padding-top: 175px;
 	line-height: 70px;
 }
 
 .bio {
-	font-size: 45px;
-	line-height: 70px;
+	font-size: 35px;
+	line-height: 45px;
 	margin-top: 10px;
 	padding-top: 10px;
 }
@@ -209,10 +204,6 @@ iframe {
 		line-height: 40px;
 	}
 	
-	main {
-		margin-top:  100px;
-	}
-	
 	.bio {
 		padding-left: 25px;
 		padding-right: 25px;
@@ -251,23 +242,24 @@ iframe {
 		line-height: 50px;
 	}
 	
-	main {
-		margin-top: 0px;
+	header {
+		padding-bottom: 100px;
 	}
 	
 	.style-logo {
 		float: left;
 		padding-left: 10px;
-		font-size: 200px;
+		font-size: 75px;
 	}
 	
 	.style-nav {
 		float: right;
-		padding-top: 10px;
+		padding-top: 30px;
+		padding-right: 30px;
 	}
 	
 	.style-nav ul li a {
-		font-size: 100px !important;
+		font-size: 50px;
 	}
 	
 	.contact {
