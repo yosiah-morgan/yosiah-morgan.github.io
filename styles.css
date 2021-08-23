@@ -93,7 +93,10 @@ iframe {
 	text-align: center;
 	display: inline-block;
 	padding: 8px;
-	font-size: 27px;
+}
+
+.style-nav ul li a {
+	font-size: 2em !important;
 }
 
 .contact {
