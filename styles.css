@@ -78,6 +78,7 @@ iframe {
 	text-align: center;
 	display: block;
 	color: white;
+	font-size: 10em;
 }
 
 .style-nav {
@@ -96,7 +97,7 @@ iframe {
 }
 
 .style-nav ul li a {
-	font-size: 2em !important;
+	font-size: 5em !important;
 }
 
 .contact {
