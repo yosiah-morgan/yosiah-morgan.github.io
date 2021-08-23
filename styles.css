@@ -43,6 +43,7 @@ h2 {
 
 header {
 	padding: 0px;
+	margin-top: 0px;
 	margin-bottom: 50px;
 }
 
@@ -98,6 +99,10 @@ iframe {
 
 .style-nav ul li a {
 	font-size: 40px;
+}
+
+.contact {
+	text-align: center;
 }
 
 .contact p {
@@ -191,10 +196,6 @@ iframe {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
-	
-	.contact {
-		text-align: center;
-	}
 }
 /* Tablet View */
 @media (min-width: 768px){
@@ -210,7 +211,6 @@ iframe {
 	}
 	
 	.contact {
-		text-align: center;
 		padding-top: 25%;
 		font-size: .7em;
 	}
@@ -263,7 +263,12 @@ iframe {
 	}
 	
 	.contact {
-		padding-top: 12%;
+		padding-top: 100px;
+	}
+	
+	.contact p {
+		font-size: 75px;
+		line-height: 85px;
 	}
 	
 	.bio {
