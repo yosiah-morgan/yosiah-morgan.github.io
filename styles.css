@@ -78,7 +78,7 @@ iframe {
 	text-align: center;
 	display: block;
 	color: white;
-	font-size: 100px;
+	font-size: 66px;
 }
 
 .style-nav {
@@ -97,13 +97,13 @@ iframe {
 }
 
 .style-nav ul li a {
-	font-size: 50px;
+	font-size: 40px;
 }
 
 .contact p {
-	font-size: 36px;
+	font-size: 30px;
 	padding-top: 175px;
-	line-height: 70px;
+	line-height: 40px;
 }
 
 .bio {
