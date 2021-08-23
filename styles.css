@@ -33,10 +33,6 @@ p {
 	line-height: 30px;
 }
 
-h1 {
-	font-size: 50px;
-}
-
 h2 {
 	text-align: center;
 }
@@ -242,10 +238,6 @@ iframe {
 		line-height: 50px;
 	}
 	
-	header {
-		padding-bottom: 100px;
-	}
-	
 	.style-logo {
 		float: left;
 		padding-left: 10px;
@@ -272,6 +264,7 @@ iframe {
 	}
 	
 	.bio {
+		padding-top: 100px;
 		padding-left: 100px;
 		padding-right: 100px;
 	}
