@@ -214,11 +214,24 @@ iframe {
 	.contact {
 		text-align: center;
 		padding-top: 25%;
+		font-size: .7em;
 	}
 	
 	.row {
 		padding-left: 10px;
 		padding-right: 10px;
+	}
+	
+	.style-logo {
+		font-size: 5em;
+	}
+	
+	.style-nav ul li a {
+		font-size: 3em !important;
+	}
+	
+	.icon {
+		width: 5%;
 	}
 	
 	p {
@@ -243,6 +256,7 @@ iframe {
 	.style-logo {
 		float: left;
 		padding-left: 10px;
+		font-size: 5em;
 	}
 	
 	.style-nav {
@@ -251,7 +265,7 @@ iframe {
 	}
 	
 	.style-nav ul li a {
-		font-size: 32px;
+		font-size: 3em !important;
 	}
 	
 	.contact {
