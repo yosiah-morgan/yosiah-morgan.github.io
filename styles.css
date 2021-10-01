@@ -12,23 +12,22 @@ html * {
 body {
 	height: 100%;
 	padding: 0px;
-	background-color: black !important;
+	background-color: #181818 !important;
 	min-height: 100%;
 }
 
 a {
-	text-decoration: none;
-	color: white;
+	text-decoration: underline;
+	color: #2292e8;
 }
 
 a:hover {
-	font-weight: bold;
-	color: white;
+	color: #2292e8;
 }
 
 p {
 	padding: 25px;
-	color: white;
+	color: #D3D3D3;
 	font-size: 25px;
 	line-height: 30px;
 }
@@ -74,7 +73,7 @@ iframe {
 .style-logo {
 	text-align: center;
 	display: block;
-	color: white;
+	color: #D3D3D3;
 	font-size: 55px;
 }
 
@@ -139,7 +138,7 @@ iframe {
 }
 
 .thumbnail h2 {
-	color: white;
+	color: #D3D3D3;
 	font-size: 50px;
 	text-shadow: 0 4px 5px rgba(0,0,0,0.14), 0 1px 10px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.20);;
 	position: absolute;
@@ -172,14 +171,14 @@ iframe {
 .button {
 	text-align: center;
 	border-style: solid;
-	color: white;
+	color: #D3D3D3;
 	padding: 10px;
 	margin: 20px;
 	width: 250px;
 }
 
 .button a {
-	color: white;
+	color: #D3D3D3;
 	font-size: 30px;
 }
 
