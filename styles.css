@@ -71,8 +71,8 @@ iframe {
 }
 
 .style-logo {
+	text-decoration: none;
 	text-align: center;
-	display: block;
 	color: #D3D3D3;
 	font-size: 55px;
 }
@@ -107,6 +107,8 @@ iframe {
 }
 
 .bio {
+	margin-left: 10px;
+	margin-right: 10px;
 	font-size: 35px;
 	line-height: 45px;
 	margin-top: 10px;
@@ -168,22 +170,10 @@ iframe {
     border: 0;
 }
 
-.button {
+.resume {
+	font-size: 50px;
 	text-align: center;
-	border-style: solid;
-	color: #D3D3D3;
-	padding: 10px;
-	margin: 20px;
-	width: 250px;
 }
-
-.button a {
-	color: #D3D3D3;
-	font-size: 30px;
-}
-
-
-
 
 /* Phone View */
 @media (max-width: 768px){	
@@ -216,7 +206,7 @@ iframe {
 	}
 	
 	.style-logo {
-		font-size: 5em;
+		font-size: 100px;
 	}
 	
 	.style-nav ul li a {
@@ -239,14 +229,14 @@ iframe {
 	
 	.style-logo {
 		float: left;
-		padding-left: 10px;
+		margin-left: 50px;
 		font-size: 75px;
 	}
 	
 	.style-nav {
 		float: right;
-		padding-top: 30px;
-		padding-right: 30px;
+		margin-top: 9px;
+		margin-right: 50px;
 	}
 	
 	.style-nav ul li a {
@@ -263,7 +253,7 @@ iframe {
 	}
 	
 	.bio {
-		padding-top: 100px;
+		padding-top: 200px;
 		padding-left: 100px;
 		padding-right: 100px;
 	}
@@ -274,5 +264,10 @@ iframe {
 	
 	.button a {
 		font-size: 50px;
+	}
+	
+	.resume {
+		text-align: left;
+		margin-left: 100px;
 	}
 }
