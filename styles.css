@@ -168,7 +168,8 @@ iframe {
     border: 0;
 }
 
-.resume {
+.download {
+	text-align: center;
 	font-size: 50px;
 	text-align: center;
 }
