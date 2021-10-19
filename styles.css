@@ -47,13 +47,11 @@ main {
 	box-sizing: border-box;
 }
 
-footer {
-	left: 0;
+.footer {
+	position: fixed;
 	bottom: 0;
-	height: 50px;
 	width: 100%;
-	margin: 0px;
-	padding: 0px;
+	height: 60px;
 }
 
 img {
@@ -196,13 +194,9 @@ iframe {
 	}
 	
 	.contact {
-		padding-top: 25%;
-		font-size: .7em;
-	}
-	
-	.row {
-		padding-left: 10px;
-		padding-right: 10px;
+		margin-top: 200px;
+		line-height: 70px;
+		font-size: 50px;
 	}
 	
 	.style-logo {
@@ -229,14 +223,15 @@ iframe {
 	
 	.style-logo {
 		float: left;
-		margin-left: 50px;
+		margin-top: 10px;
+		margin-left: 10px;
 		font-size: 75px;
 	}
 	
 	.style-nav {
 		float: right;
-		margin-top: 9px;
-		margin-right: 50px;
+		margin-top: 24px;
+		margin-right: 10px;
 	}
 	
 	.style-nav ul li a {
@@ -253,7 +248,7 @@ iframe {
 	}
 	
 	.bio {
-		padding-top: 200px;
+		padding-top: 100px;
 		padding-left: 100px;
 		padding-right: 100px;
 	}
