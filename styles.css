@@ -7,10 +7,12 @@ html * {
 	margin: 0;
 	box-sizing: border-box;
 	font-family: "Helvetica";
+	color: white;
 }
 
 body {
 	height: 100%;
+	width: 100%;
 	padding: 0px;
 	background-color: #181818 !important;
 	min-height: 100%;
@@ -27,13 +29,18 @@ a:hover {
 
 p {
 	padding: 25px;
-	color: #D3D3D3;
 	font-size: 25px;
 	line-height: 30px;
 }
 
+h1 {
+	text-align: center;
+	font-size: 100px;
+}
+
 h2 {
 	text-align: center;
+	font-size: 50px;
 }
 
 header {
@@ -71,7 +78,7 @@ iframe {
 .style-logo {
 	text-decoration: none;
 	text-align: center;
-	color: #D3D3D3;
+	color: white;
 	font-size: 55px;
 }
 
@@ -138,8 +145,6 @@ iframe {
 }
 
 .thumbnail h2 {
-	color: #D3D3D3;
-	font-size: 50px;
 	text-shadow: 0 4px 5px rgba(0,0,0,0.14), 0 1px 10px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.20);;
 	position: absolute;
 	top: 50%;
@@ -254,8 +259,9 @@ iframe {
 		padding-right: 100px;
 	}
 	
-	.button {
-		margin: 0px 100px 50px 100px;
+	.download {
+		text-align: left;
+		margin-left: 100px;
 	}
 	
 	.button a {
